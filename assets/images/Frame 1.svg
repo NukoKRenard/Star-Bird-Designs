@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Frame1" width="540" height="1060" viewBox="0 0 540 1060" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<rect x="0.5" y="0.5" width="539" height="1059" rx="4.5" stroke="#9747FF" stroke-dasharray="0,0,0,3187.55322265625"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,3187.55322265625; 
+          0,1593.776611328125,1593.776611328125,0; 
+          3187.55322265625,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect width="500" height="500" transform="translate(20 20)" fill="white" stroke-dasharray="0,0,0,2000"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,2000; 
+          0,1000,1000,0; 
+          2000,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="83" y="134" width="187" height="261" fill="#D9D9D9" stroke-dasharray="0,0,0,896"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,896; 
+          0,448,448,0; 
+          896,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="164" y="233" width="254" height="225" fill="#D9D9D9" stroke-dasharray="0,0,0,958"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,958; 
+          0,479,479,0; 
+          958,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<g clip-path="url(#clip0_79_11)">
+<rect width="500" height="500" transform="translate(20 540)" fill="white" stroke-dasharray="0,0,0,2000"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,2000; 
+          0,1000,1000,0; 
+          2000,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="83" y="654" width="187" height="261" fill="#D9D9D9" stroke-dasharray="0,0,0,896"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,896; 
+          0,448,448,0; 
+          896,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="301" y="716" width="254" height="225" fill="#D9D9D9" stroke-dasharray="0,0,0,958"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,958; 
+          0,479,479,0; 
+          958,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+</g>
+<defs>
+<clipPath id="clip0_79_11">
+<rect width="500" height="500" fill="white" transform="translate(20 540)" stroke-dasharray="0,0,0,2000"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,2000; 
+          0,1000,1000,0; 
+          2000,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+</clipPath>
+</defs>
+</svg>

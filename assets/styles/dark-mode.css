@@ -1,0 +1,48 @@
+* {
+    --background-color: rgb(20,20,20);
+    --background-color-secondary: rgb(0,0,0);
+
+    --primary-color: rgb(255,89,00);
+    --secondary-color: rgb(94,00,255);
+    --primary-color-dark: rgb(127,44,00);
+    --secondary-color-dark: rgb(47,00,127);
+
+    
+    --dark-color: rgb(30,30,30);
+    --dark-color-secondary: rgb(20,20,20);
+
+    --text-color: rgb(200,200,200);
+}
+
+@font-face {
+    font-family: "Falcon Punch";
+    src: url("../fonts/falconpunchhalf.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Olivers Barney";
+    src: url("../fonts/Olivers Barney.otf") format("opentype");
+}
+
+body {
+    background: var(--background-color);
+
+    padding:0%;
+    margin: 0%;
+
+    color: var(--text-color);
+
+    cursor: url("../images/MainCursor.svg"), auto;
+}
+
+.inlink {
+    cursor: url("../images/SunBirdDesignsLogo.svg"), auto;
+}
+
+.cookiesprompt {
+    position: fixed;
+    height: 30%;
+    width:100%;
+
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+}
