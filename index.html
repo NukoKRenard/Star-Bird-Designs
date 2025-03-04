@@ -8,8 +8,14 @@
         <link rel="stylesheet" href="assets/styles/grid.css">
         <link rel="stylesheet" href="assets/styles/homepage.css">
 
+        <!--External API links-->
+        <script src="https://unpkg.com/@rive-app/canvas-lite"></script>
+
         
         <script src="assets/scripts/homeanim.js" defer></script>
+        <script src="assets/scripts/homepage-rive.js" defer></script>
+
+        <link rel="text" src="https://nukokrenard.github.io/Sun-Bird-Designs/assets/rive/processwork-anim.riv"></link>
     </head>
     <body>
         <div class="header">
@@ -29,18 +35,19 @@
                 <div class="panel">
                     <div class="plate">
                         <h1>Portfolio</h1>
+                        <canvas id="portfolio=anim" class="anim"></canvas>
                     </div>
                 </div>
                 <div class="panel">
                     <div class="plate">
                         <h1>Process Work</h1>
+                        <canvas id="processwork-anim" class="anim"></canvas>
                     </div>
                 </div>
                 <div class="panel">
                     <div class="plate">
-                        <h1>
-                            About Me
-                        </h1>
+                        <h1>About Me</h1>
+                        <canvas id="aboutme-anim" class="anim"></canvas>
                     </div>
                 </div>
             </div>
