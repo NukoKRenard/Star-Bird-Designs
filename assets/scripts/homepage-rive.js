@@ -1,5 +1,5 @@
 let processanim = new rive.Rive({
-    src:"../rive/process-anim.riv",
+    src:"assets/rive/process-anim.riv",
     stateMachines:"raise-paper",
 
     canvas: document.getElementById("processwork-anim"),
