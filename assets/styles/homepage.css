@@ -143,7 +143,7 @@ button::after {
 }
 
 .panel > .plate > h1 {
-    font-size: 300%;
+    font-size: 200%;
     font-family: "Olivers Barney";
 
     text-align: center;
@@ -173,8 +173,6 @@ button::after {
     justify-content:space-around;
     flex-direction:row;
     align-items:center;
-
-    overflow-
 
     flex-wrap:wrap;
 }
@@ -213,6 +211,7 @@ button::after {
 }
 
 .anim {
+    border-radius: 10%;
     aspect-ratio: 1;
     width:100%;
     background-color: rgb(255,0,255);
