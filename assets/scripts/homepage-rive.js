@@ -1,11 +1,12 @@
-let processanim = new rive.Rive({
-    src:"assets/rive/process-anim.riv",
-    stateMachines:"raise-paper",
-
-    canvas: document.getElementById("processwork-anim"),
-    autoplay:false,
-
+const r = new rive.Rive({
+    src: "assets/rive/process-anim.riv",
+    // OR the path to a discoverable and public Rive asset
+    // src: '/public/example.riv',
+    canvas: document.getElementById("canvas"),
+    autoplay: true,
+    // artboard: "Arboard", // Optional. If not supplied the default is selected
+    stateMachines: "raise-paper",
     onLoad: () => {
-        r.resizeDrawingSurfaceToCanvas();
-      }
-})
+      r.resizeDrawingSurfaceToCanvas();
+    },
+});
