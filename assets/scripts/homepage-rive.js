@@ -1,11 +1,11 @@
-const riveanimpath = "https://nukokrenard.github.io/Sun-Bird-Designs/assets/rive/process-anim.riv"
+const riveanimpath = "https://nukokrenard.github.io/Sun-Bird-Designs/assets/rive/homepage-anims.riv"
 
 const processworkanim = new rive.Rive({
     src: riveanimpath,
     canvas: document.getElementById("processwork-anim"),
     autoplay: true,
     stateMachines: "papers",
-    artboard:"progresswork",
+    artboard:"processwork",
     onLoad: () => {
       processworkanim.resizeDrawingSurfaceToCanvas();
     },
