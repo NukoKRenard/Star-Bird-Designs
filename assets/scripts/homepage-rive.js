@@ -1,4 +1,4 @@
-const riveanimpath = "https://nukokrenard.github.io/Sun-Bird-Designs/assets/rive/homepage-anims.riv"
+const riveanimpath = "https://nukokrenard.github.io/Star-Bird-Designs/assets/rive/homepage-anims.riv"
 
 const processworkanim = new rive.Rive({
     src: riveanimpath,
