@@ -1,14 +1,37 @@
-const r = new rive.Rive({
-    src: "https://nukokrenard.github.io/Sun-Bird-Designs/assets/rive/process-anim.riv",
-    // OR the path to a discoverable and public Rive asset
-    // src: '/public/example.riv',
+const riveanimpath = "https://nukokrenard.github.io/Sun-Bird-Designs/assets/rive/process-anim.riv"
+
+const processworkanim = new rive.Rive({
+    src: riveanimpath,
     canvas: document.getElementById("processwork-anim"),
     autoplay: true,
-    // artboard: "Arboard", // Optional. If not supplied the default is selected
-    stateMachines: "raise-paper",
+    stateMachines: "papers",
+    artboard:"progresswork",
     onLoad: () => {
-      r.resizeDrawingSurfaceToCanvas();
+      processworkanim.resizeDrawingSurfaceToCanvas();
     },
 });
+window.setInterval(() => {processworkanim.resizeDrawingSurfaceToCanvas()},100);
 
-window.setInterval(() => {r.resizeDrawingSurfaceToCanvas()},100);
+const portfolioanim = new rive.Rive({
+  src: riveanimpath,
+  canvas: document.getElementById("portfolio-anim"),
+  autoplay: true,
+  stateMachines: "painting",
+  artboard:"portfolio",
+  onLoad: () => {
+    portfolioanim.resizeDrawingSurfaceToCanvas();
+  },
+});
+window.setInterval(() => {portfolioanim.resizeDrawingSurfaceToCanvas()},100);
+
+const aboutmeanim = new rive.Rive({
+  src: riveanimpath,
+  canvas: document.getElementById("aboutme-anim"),
+  autoplay: true,
+  stateMachines: "crow",
+  artboard:"aboutme",
+  onLoad: () => {
+    portfolioanim.resizeDrawingSurfaceToCanvas();
+  },
+});
+window.setInterval(() => {aboutmeanim.resizeDrawingSurfaceToCanvas()},100);
