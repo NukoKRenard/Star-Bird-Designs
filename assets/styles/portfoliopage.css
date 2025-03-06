@@ -1,0 +1,23 @@
+#film-assignment {
+    aspect-ratio: 1920/1080;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.titleandbutton {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+    width: 40%
+}
+
+.itemdescription {
+    padding: 5%;
+    width:50%
+}
