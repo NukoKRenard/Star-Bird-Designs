@@ -6,7 +6,13 @@
     padding: 0;
 }
 
-
+.header {
+    width:100vw;
+    height:100vh;
+    margin:none;
+    padding:none;
+    border:none;
+}
 
 .titleandbutton {
     display: flex;
@@ -20,4 +26,9 @@
 .itemdescription {
     padding: 5%;
     width:50%
+}
+
+
+canvas {
+    background-color: #ff00ff;
 }
