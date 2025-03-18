@@ -1,0 +1,33 @@
+.paneldesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.paneldesc > canvas {
+    width:50vw;
+    height:50vw;
+}
+
+.paneldesc > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+
+    font-size:1.5em;
+}
+
+.commitheader {
+    font-size: 7vw;
+    font-family: "Olivers Barney";
+
+    color:transparent;
+    
+    background-clip: text;
+    background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
+    filter:drop-shadow(.1em .1em .1em rgb(255,255,255));
+}
+

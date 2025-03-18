@@ -1,5 +1,3 @@
-const riveanimpath = "https://nukokrenard.github.io/Star-Bird-Designs/assets/rive/homepage-anims.riv"
-
 const processworkanim = new rive.Rive({
     src: riveanimpath,
     canvas: document.getElementById("processwork-anim"),

@@ -1,0 +1,1 @@
+const riveanimpath = "http://localhost:3000/assets/rive/homepage-anims.riv"

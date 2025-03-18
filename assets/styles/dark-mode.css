@@ -33,6 +33,8 @@ body {
     color: var(--text-color);
 
     cursor: url("../images/MainCursor.svg"), auto;
+
+    font-family: sans-serif;
 }
 
 .inlink {

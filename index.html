@@ -8,12 +8,15 @@
         <link rel="stylesheet" href="assets/styles/grid.css">
         <link rel="stylesheet" href="assets/styles/homepage.css">
 
-        <!--External API links-->
+        <!--External API link-->
         <script src="https://unpkg.com/@rive-app/canvas"></script>
 
-        
+        <!--Website code-->
         <script src="assets/scripts/homeanim.js" defer></script>
         <script src="assets/scripts/homepage-rive.js" defer></script>
+
+        <!--Required variables (Not deferred)-->
+        <script src="assets/scripts/globvar.js"></script>
     </head>
     <body>
         <div class="header">
@@ -42,7 +45,7 @@
                         <canvas id="processwork-anim" class="anim"></canvas>
                     </div>
                 </div>
-                <div class="panel inlink">
+                <div class="panel inlink" onclick="window.location.href = 'pages/aboutme.html'">
                     <div class="plate">
                         <h1>About Me</h1>
                         <canvas id="aboutme-anim" class="anim"></canvas>
