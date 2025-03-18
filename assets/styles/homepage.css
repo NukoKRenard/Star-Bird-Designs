@@ -86,7 +86,7 @@
     transition-duration: .5s;
 }
 
-button, button::after {
+button {
     width: 20vw;
     height: 10vw;
     font-size: 5vmin;
