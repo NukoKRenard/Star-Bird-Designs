@@ -1,1 +1,1 @@
-const riveanimpath = "http://localhost:3000/assets/rive/homepage-anims.riv"
+const riveanimpath = "https://nukokrenard.github.io/Star-Bird-Designs/assets/rive/homepage-anims.riv";
