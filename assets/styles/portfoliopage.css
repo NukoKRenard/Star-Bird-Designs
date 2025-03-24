@@ -66,3 +66,8 @@ button {
 
     filter:drop-shadow(10px 10px 10px #000000);
 }
+
+#safetyposter {
+    width: 50%;
+    aspect-ratio: 945/1181;
+}

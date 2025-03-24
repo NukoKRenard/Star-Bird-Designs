@@ -1,27 +1,4 @@
-.paneldesc {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 
-    padding-inline: auto;
-    height: 100vh;
-}
-
-.paneldesc > canvas {
-    width:50vw;
-    height:50vw;
-}
-
-.paneldesc > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 3%;
-
-    font-size:1.5em;
-}
 
 .commitheader {
     font-size: 7vw;
@@ -32,4 +9,13 @@
     background-clip: text;
     background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
     filter:drop-shadow(.1em .1em .1em rgb(255,255,255));
+}
+
+.paneldesc > canvas {
+    width:50vw;
+    height:50vw;
+}
+
+.paneldesc {
+    height: 100vh;
 }
