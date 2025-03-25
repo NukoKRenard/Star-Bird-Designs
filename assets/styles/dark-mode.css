@@ -105,3 +105,44 @@ button::after {
 
     font-size:1.5em;
 }
+
+#header {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header > .homebutton {
+    height: 13vh;
+    aspect-ratio: 1;
+}
+
+#header > ul > li > button {
+    border-width: 2px;
+    height: 13vh;
+    aspect-ratio: 1;
+}
+
+#header > ul {
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+
+    list-style: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logotext {
+    font-family:"Falcon Punch";
+
+    color:transparent;
+    
+    background-clip: text;
+    background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
+}

@@ -7,16 +7,6 @@
     height:100vh;
 }
 
-.logotext {
-    font-family:"Falcon Punch";
-
-    font-size:5vw;
-    color:transparent;
-    
-    background-clip: text;
-    background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
-}
-
 .logo {
     position:relative;
 
@@ -51,6 +41,10 @@
     to {
         --border-angle:360deg;
     }
+}
+
+.logotext {
+    font-size:5vw;
 }
 
 .logo > .border {
