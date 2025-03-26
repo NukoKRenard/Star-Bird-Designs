@@ -8,9 +8,23 @@
         <link rel="stylesheet" href="../assets/styles/portfoliopage.css">
     </head>
     <body>
-        <canvas class="header">
+        <div id="header">
+            <div class="inline">
+                <img src="../assets/images/SunBirdDesignsLogo.svg" class="homebutton inlink">
+                <h1 class="logotext">Star Bird Designs</h1>
+            </div>
 
-        </canvas>
+            <ul class="linear">
+                <li><button class="inlink" onclick="document.location.href='../index.html'">Homepage</button></li>
+                <li><button class="inlink" onclick="document.location.href='portfolio.html'"">Portfolio</button></li>
+                <li><button class="inlink" onclick="document.location.href='processwork.html'">Process</button></li>
+                <li><button class="inlink" onclick="document.location.href='aboutme.html'">About</button></li>
+            </ul>
+        </div>
+        <div class="header" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h2>This Area Is Under Construction!</h2>
+            <p>Please scroll down to see website content!</p>
+        </div>
         <div class="MainContent">
             <div id="movie">
                 <div id="movietext" class="itemdescription">
@@ -19,7 +33,7 @@
                     </video>
 
                     <div class="titleandobject">
-                        <h2>Movie Title</h2> <button>Watch Movie -></button>
+                        <h2>Movie Title</h2> <button class="moviebutton">Watch Movie -></button>
                     </div>
                     <p>This is some text about the movie Lorem ipsum dolor sit amet. Est galisum fuga qui dolorem facere id corrupti molestiae qui voluptatem fuga. Ut impedit dolores et amet consequuntur ab rerum recusandae et veritatis voluptatem eos ipsa nisi et esse consequatur. Et rerum unde non suscipit velit aut sint itaque hic cupiditate enim ut autem inventore. Et accusamus tempora est earum iusto eum incidunt sint 33 natus repudiandae!</p>
                 </div>
@@ -61,8 +75,15 @@
                     <button onclick='document.getElementById("photoshopcarosel").scrollBy({top:0,left:500,behavior:"smooth"})'>&gt</button>
                 </div>
             </div>
-            
-            <h2>Social Emotional Learning and Executive Function</h2>
+            <div id="sel">
+                <h2>Social Emotional Learning and Executive Function</h2>
+                <p>We not only strive to deliver products, but also to learn and adapt
+                    when we make a mistake. It is because of this that we place emphasis on Social
+                    and Emotional Learning skills and the Executive Function skills as we find
+                    that these are ways to dramatically increase productivity, allow our
+                    employies to learn, and foster a positive workspace.
+                </p>
+            </div>            
             <h2>Careers and Professional Practice</h2>
             <h2>Culminating</h2>
         </div>

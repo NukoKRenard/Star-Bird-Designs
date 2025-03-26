@@ -34,7 +34,7 @@
     width: 50%;
 }
 
-button {
+.moviebutton {
     border:none;
     aspect-ratio: 3;
     font-size:1em;
@@ -143,4 +143,17 @@ h2 {
     background-clip: text;
     background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
     filter:drop-shadow(.1em .1em .1em rgb(255,255,255));
+}
+
+#sel {
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sel > p{
+    width: 50%;
 }
