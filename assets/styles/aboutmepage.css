@@ -19,3 +19,31 @@
 .paneldesc {
     height: 100vh;
 }
+
+#contactinfo {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(var(--secondary-color-dark),var(--primary-color-dark));
+}
+
+#contactinfo > h2 {
+    font-size: 10vmin;
+    font-family: "Olivers Barney";
+
+    color:transparent;
+    
+    background-clip: text;
+    background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
+    filter:drop-shadow(.1em .1em .1em rgb(255,255,255));
+}
+
+#contactinfo {
+    font-weight: bold;
+    font-size: 5vmin;
+}
