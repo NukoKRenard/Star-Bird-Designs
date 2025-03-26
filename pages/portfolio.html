@@ -12,22 +12,22 @@
 
         </canvas>
         <div class="MainContent">
-            <div class="movie">
+            <div id="movie">
                 <div id="movietext" class="itemdescription">
                     <video autoplay muted loop id="film-assignment">
                         <source src="../assets/videos/movie-filler.mp4" type="video/mp4">
                     </video>
 
-                    <div class="titleandbutton">
-                        <h1>Movie Title</h1> <button>Watch Movie -></button>
+                    <div class="titleandobject">
+                        <h2>Movie Title</h2> <button>Watch Movie -></button>
                     </div>
                     <p>This is some text about the movie Lorem ipsum dolor sit amet. Est galisum fuga qui dolorem facere id corrupti molestiae qui voluptatem fuga. Ut impedit dolores et amet consequuntur ab rerum recusandae et veritatis voluptatem eos ipsa nisi et esse consequatur. Et rerum unde non suscipit velit aut sint itaque hic cupiditate enim ut autem inventore. Et accusamus tempora est earum iusto eum incidunt sint 33 natus repudiandae!</p>
                 </div>
             </div>
             <div id="onlinesafety" class="paneldesc">
                 <img id="safetyposter" src="../assets/images/portfolio/OnlineSafetyInfographic.png">
-                <div class="">
-                    <h1>Media's Effects On Body Image (Poster)</h1>
+                <div>
+                    <h2>Media's Effects On Body Image (Poster)</h2>
                     <p>
                         This was a poster I made with a group of people in order to illustrate
                         the positive and negaitive aspects media has on people's self image. The poster
@@ -37,18 +37,32 @@
                     </p>
                 </div>
             </div>
-            <h2>Social Emotional Learning and Executive Function</h2>
-            <div id="audioandpodcasts">
+            <div id="audioandpodcasts" class="smallitemdescription">
                 <div class="titleandobject">
-                    <h2>Audio and Podcasts</h2>
-                    <audio controlls>
-                        <source>
-                    <audio>
+                    <div>
+                        <h2>Audio and Podcasts</h2>
+                        <p>This was a podcast mockup I made.</p>
+                    </div>
+                    <audio controls>
+                        <source src="../assets/sounds/filler.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+            <div id="photos">
+                <h2>Photography and PhotoShop</h2>
+                <div class="inlinecarosel">
+                    <button onclick='document.getElementById("photoshopcarosel").scrollBy({top:0,left:-500,behavior:"smooth"})'>&lt</button>
+                    <ul id="photoshopcarosel">
+                        <li><img src="../assets/images/portfolio/PhotoshopDay1.png"></li>
+                        <li><img src="../assets/images/portfolio/PhotoshopDay2Task1After.png"></li>
+                        <li><img src="../assets/images/portfolio/PhotoshopDay2Task2After.png"></li>
+                    </ul>
+                    <button onclick='document.getElementById("photoshopcarosel").scrollBy({top:0,left:500,behavior:"smooth"})'>&gt</button>
                 </div>
             </div>
             
-            
-            <h2>Photography and PhotoShop</h2>
+            <h2>Social Emotional Learning and Executive Function</h2>
             <h2>Careers and Professional Practice</h2>
             <h2>Culminating</h2>
         </div>
