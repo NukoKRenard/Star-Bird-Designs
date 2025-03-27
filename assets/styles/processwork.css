@@ -1,12 +1,12 @@
 .bento {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: none;
 
     flex-grow: none;
     flex-shrink: none;
 
     justify-content: center;
-    align-items: center;
+    align-items: top;
     overflow-x:hidden;
     overflow-y: scroll;
 }
@@ -16,16 +16,16 @@
     padding:none;
     margin: none;
 
-    background: linear-gradient(var(--secondary-color),var(--primary-color));
+    background: var(--primary-dark);
 }
 
-.bento > embed {
-    width: 31%;
-    aspect-ratio: 1;
-
-    border-radius: 10%;
+.bento > div {
+    width: 49%;
 }
 
-.bento > * {
-    padding: 1%;
+.bento > div > * {
+    border-radius: 5%;
+
+    width:98%;
+    margin:1%;
 }

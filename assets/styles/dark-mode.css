@@ -147,6 +147,9 @@ button::after {
     align-items: center;
 }
 
+#header > ul:not(:hover) > li > button.selected {
+    background: rgba(0,0,0,0);
+}
 
 .logotext {
     font-family:"Falcon Punch";

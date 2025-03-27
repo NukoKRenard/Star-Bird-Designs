@@ -21,6 +21,8 @@
 }
 
 #contactinfo {
+    position: relative;
+
     width: 100vw;
     height: 100vh;
 
@@ -29,7 +31,20 @@
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(var(--secondary-color-dark),var(--primary-color-dark));
+    background: var(--dark-color);
+
+    font-weight: bold;
+    font-size: 5vmin;
+}
+
+#contactinfo::before {
+    content:"";
+    position: absolute;
+    top:-10px;
+    height:10px;
+    width: 100%;
+
+    background: linear-gradient(90deg, var(--primary-color-dark), var(--secondary-color-dark));
 }
 
 #contactinfo > h2 {
@@ -41,9 +56,4 @@
     background-clip: text;
     background-image: linear-gradient(90deg,var(--primary-color), var(--secondary-color));
     filter:drop-shadow(.1em .1em .1em rgb(255,255,255));
-}
-
-#contactinfo {
-    font-weight: bold;
-    font-size: 5vmin;
 }
