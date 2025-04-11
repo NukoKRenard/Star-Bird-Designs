@@ -115,8 +115,7 @@
 }
 
 .inlinecarosel > ul > li {
-    padding-inline: 10vw;
-    padding-block: 3vw;
+    padding-block: 2vw;
 }
 
 .inlinecarosel {
@@ -126,7 +125,7 @@
 
 .inlinecarosel > button {
     margin: none;
-    width: 50px;
+    width: 1000px;
 }
 
 #photos > h2 {
