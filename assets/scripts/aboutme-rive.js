@@ -1,13 +1,15 @@
+function loadaboutmerive(Path2D, canvasid, statemachine, artboard)
+{
 const knightanim = new rive.Rive({
     src: riveanimpath,
-    canvas: document.getElementById("birdknight-anim"),
+    canvas: document.getElementById(canvasid),
     autoplay: true,
-    stateMachines: "knight",
-    artboard:"aboutme-art",
+    stateMachines: statemachine,
+    artboard:artboard,
     onLoad: (_) => {
       knightanim.resizeDrawingSurfaceToCanvas();
 
-      const knightinputs = knightanim.stateMachineInputs("knight");
+      const knightinputs = knightanim.stateMachineInputs(statemachine);
       
       const startknightanim = knightinputs.find((input) => input.name === "animate")
       const resetknightanim = knightinputs.find((input) => input.name === "reset")
@@ -22,9 +24,14 @@ const knightanim = new rive.Rive({
           }
         }
       )
-      },{root: document,rootMargin: "0px",threshold: .5})
+      },{root: document,rootMargin: "0px",threshold: .7})
 
-      knightobserver.observe(document.getElementById("birdknight-anim"));
+      knightobserver.observe(document.getElementById(canvasid));
     },
 });
 window.setInterval(() => {knightanim.resizeDrawingSurfaceToCanvas()},100);
+}
+
+loadaboutmerive(riveanimpath,"birdknight-anim","knight","aboutme-art")
+loadaboutmerive(riveanimpath,"handshake-anim","handshake","aboutme-users")
+loadaboutmerive(riveanimpath,"money-anim","money","aboutme-profits")
