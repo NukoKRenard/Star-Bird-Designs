@@ -118,7 +118,7 @@ button::after {
     position: sticky;
     top:0;
 
-    background:var(--dark-color-secondary);
+    background: linear-gradient(45deg, var(--dark-color), var(--dark-color-secondary), var(--dark-color), var(--dark-color-secondary), var(--dark-color), var(--dark-color-secondary), var(--dark-color), var(--dark-color-secondary), var(--dark-color), var(--dark-color-secondary));
 
     z-index: 1000;
 }
