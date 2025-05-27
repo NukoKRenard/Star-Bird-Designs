@@ -23,7 +23,7 @@
 #contactinfo {
     position: relative;
 
-    width: 100vw;
+    width: auto;
     height: 100vh;
 
     display: flex;

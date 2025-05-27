@@ -1,5 +1,5 @@
 .header {
-    width:100vw;
+    width:auto;
     height:100vh;
     margin:none;
     padding:none;
@@ -30,6 +30,19 @@
     align-items: center;
 }
 
+#movie > video {
+    position: fixed;
+    z-index: -100;
+
+    width:100%;
+}
+
+
+#movie {
+    width: auto;
+    aspect-ratio: 1920/1080;
+}
+
 #movie > p {
     width: 50%;
 }
@@ -38,6 +51,11 @@
     border:none;
     aspect-ratio: 3;
     font-size:1em;
+}
+
+.MainContent {
+    background-color: var(--dark-color-secondary);
+    z-index: 1;
 }
 
 .itemdescription::before {
@@ -61,6 +79,7 @@
 #safetyposter {
     width: 50vw;
     aspect-ratio: 945/1181;
+    filter:drop-shadow(0 50xp 50px rgb(0,0,0))
 }
 
 #audioandpodcasts > div > * {

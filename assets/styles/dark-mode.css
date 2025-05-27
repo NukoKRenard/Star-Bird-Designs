@@ -108,7 +108,8 @@ button::after {
 
 #header {
     height: auto;
-    width: auto;
+    padding:none;
+    width:auto;
 
     display: flex;
     flex-direction: row;
