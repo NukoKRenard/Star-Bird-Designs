@@ -30,11 +30,21 @@
     align-items: center;
 }
 
-#movie > video {
+#movie > * {
     position: fixed;
     z-index: -100;
 
     width:100%;
+}
+
+#movie > h2 {
+    z-index: -99;
+    padding: 1vw;
+}
+#movie > p {
+    z-index: -99;
+    top:10vh;
+    padding: 1vw;
 }
 
 
@@ -55,10 +65,11 @@
 
 .MainContent {
     background-color: var(--dark-color-secondary);
-    z-index: 1;
+    z-index: 0;
+    padding-bottom: 10cm;
 }
 
-.itemdescription::before {
+.smallitemdescription::before {
     content:"";
     position: absolute;
     top:0;
@@ -69,11 +80,15 @@
 
     background:  linear-gradient(90deg, var(--secondary-color-dark), var(--primary-color-dark));
 
-    z-index: -1;
-
     transform: skew(0deg,5deg);
 
+    z-index: 0;
+
     filter:drop-shadow(10px 10px 10px #000000);
+}
+
+.smallitemdescription > *{
+    z-index: 3;
 }
 
 #safetyposter {
@@ -100,24 +115,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.smallitemdescription::before {
-    content:"";
-    position: absolute;
-    top:0;
-    left:0;
-
-    width: 100%;
-    height: 100%;
-
-    background:  linear-gradient(90deg, var(--secondary-color-dark), var(--primary-color-dark));
-
-    z-index: -1;
-
-    transform: skew(0deg,-2deg);
-
-    filter:drop-shadow(10px 10px 10px #000000);
 }
 
 .inlinecarosel > ul > li > img {
