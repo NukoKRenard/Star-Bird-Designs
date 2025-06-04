@@ -167,3 +167,16 @@ button::after {
     justify-content: space-around;
     align-items: center;
 }
+.downloadlink {
+    margin: 5vmin;
+
+    font-family: "Olivers Barney";
+    color: #ffffff;
+    
+    position:relative;
+
+    font-size: 2em;
+}
+.downloadlink:hover {
+    color: var(--dark-color);
+}
