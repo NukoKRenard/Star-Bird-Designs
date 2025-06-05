@@ -1,36 +1,35 @@
-.bento {
+#itemholder {
     display: flex;
-    flex-wrap: none;
-
-    flex-grow: none;
-    flex-shrink: none;
 
     justify-content: center;
-    align-items: top;
-    overflow-x:hidden;
-    overflow-y: scroll;
-}
+    align-items: center;
+    flex-direction: column;
 
-.bento {
-    width: auto;
-    padding:none;
-    margin: none;
-
-    background: var(--primary-dark);
-}
-
-.bento > div {
-    width: 49%;
-    border-radius: 5%;
-    margin:1%;
-
-    background: var(--dark-color);
-}
-
-.bento > div > img{
-    width: 99%;
 }
 
 .boxdesc {
-    color: var(--text-color)
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-block: 10vh;
+
+    background: var(--dark-color);
+    padding:5vmin;
+
+    border: 5px var(--text-color) solid;
+    border-radius: 10%;
+}
+
+.boxdesc > * {
+    width: 70vw;
+}
+
+.boxdesc > *:not(p) {
+    filter: drop-shadow(5px 10px 20px black);
+}
+
+.boxdesc > p {
+    font-family: "Olivers Barney";
+    font-size: 2vmin;
 }
