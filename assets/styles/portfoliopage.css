@@ -31,18 +31,23 @@
 }
 
 #movie > * {
-    position: fixed;
-    z-index: -100;
 
-    width:100%;
+    width:100vw;
+    height: 100vh;
+}
+
+#movie > *:not(iframe) {
+    pointer-events: none;
+
+    position:fixed;
 }
 
 #movie > h2 {
-    z-index: -99;
+    z-index: 3;
     padding: 1vw;
 }
 #movie > p {
-    z-index: -99;
+    z-index: 3;
     top:10vh;
     padding: 1vw;
 }
@@ -63,9 +68,8 @@
     font-size:1em;
 }
 
-.MainContent {
-    background-color: var(--dark-color-secondary);
-    z-index: 0;
+#MainContent {
+    background: var(--dark-color-secondary);
     padding-bottom: 10cm;
 }
 
